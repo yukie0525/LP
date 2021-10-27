@@ -1,0 +1,258 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #323232;
+  font-size: 15px;
+}
+
+.container-size {
+  width: 960px;
+  padding: 0 4%;
+  margin: 0 auto;
+}
+
+.container-size h2 {
+  margin: 150px 0  50px;
+  text-align: center;
+}
+
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 50px;
+}
+
+.header__content h1 {
+  margin: 0;
+}
+
+.header__content nav {
+  margin: 0 0 0 auto;
+}
+
+.header__content nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__content nav ul li {
+  margin-left: 30px;
+}
+
+.header__content nav ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #323232;
+}
+
+.header__content nav ul li a:hover {
+  color: #818181;
+}
+
+.header__content nav ul li a img {
+  width: 30px;
+}
+
+.main__visual img {
+  width: 100%;
+}
+
+.main__visual--pc {
+  display: block;
+}
+
+.main__visual--sp {
+  display: none;
+}
+
+.main__works--photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main__works--photo img {
+  width: calc(100% / 3 - 20px);
+  margin: 10px;
+}
+
+.main__news--list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main__news--list ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 0;
+  border-top: solid 1px #c8c8c8;
+}
+
+.main__news--list ul li + .bottom {
+  border-bottom: solid 1px #c8c8c8;
+}
+
+.main__news--list ul li span {
+  display: inline-block;
+}
+
+.main__news--list ul li .date, .main__news--list ul li .text {
+  margin-left: 30px;
+}
+
+.main__cotact--form table {
+  width: 100%;
+}
+
+.main__cotact--form table tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main__cotact--form table tr th {
+  display: inline-block;
+  text-align: left;
+  width: 15%;
+  font-weight: normal;
+}
+
+.main__cotact--form table tr td {
+  display: inline-block;
+  width: 85%;
+  height: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.main__cotact--form table tr td input {
+  width: 100%;
+  height: 40px;
+}
+
+.main__cotact--form table tr td input#btn {
+  width: 20%;
+  margin: 30px 0 0 0;
+}
+
+.main__cotact--form table tr td input#btn:hover {
+  background: #323232;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.main__cotact--form table tr td#textbox {
+  height: 180px;
+}
+
+.main__cotact--form table tr td#textbox textarea {
+  width: 100%;
+  height: 180px;
+}
+
+.main__contact {
+  margin-bottom: 100px;
+}
+
+.footer__area {
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background: #1e1e1e;
+}
+
+.footer__area p {
+  margin: 0;
+  color: #FFF;
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-size {
+    width: 100%;
+    padding: 0 4%;
+  }
+  .container-size h2 {
+    margin: 100px 0  50px;
+  }
+  .header__content {
+    display: block;
+    padding: 20px 5px 5px;
+  }
+  .header__content h1 {
+    margin: 0;
+    text-align: center;
+  }
+  .header__content nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header__content nav ul li {
+    margin: 0 10px;
+  }
+  .main__visual--pc {
+    display: none;
+  }
+  .main__visual--sp {
+    display: block;
+  }
+  .main__works--photo {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .main__works--photo img {
+    width: 100%;
+    margin: 0 0 15px 0;
+  }
+  .main__news--list ul li {
+    display: block;
+  }
+  .main__news--list ul li .date, .main__news--list ul li .text {
+    margin: 0 15px;
+  }
+  .main__cotact--form table {
+    width: 100%;
+  }
+  .main__cotact--form table tr {
+    display: block;
+  }
+  .main__cotact--form table tr th, .main__cotact--form table tr td {
+    width: 100%;
+  }
+  .main__cotact--form table tr th#textbox textarea, .main__cotact--form table tr td#textbox textarea {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
