@@ -3,104 +3,157 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Work</title>
-        <link rel ="stylesheet" href="CSS/style.css">
+        <meta name=”description” content="沖縄諸島の自然に触れてみませんか。様々なプランをご用意しています">
+        <title>沖縄諸島観光 Okinawa Tourist</title>
+        <link rel="stylesheet" href="CSS/style.css">
         <link rel="icon" href="img/favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script rel="stylesheet">
     </head>
     <body>
-        <header class="header">
-            <div class="container-size header__content">
-                <h1><a href ="index.html"><img src="img/logo.svg" alt="ロゴの画像"></a></h1>
-                <nav>
-                    <ul>
-                        <li><a href="#About">About</a></li>
-                        <li><a href="#Works">Works</a></li>
-                        <li><a href="#News">News</a></li>
-                        <li><a href="#Contact">Contact</a></li>
-                        <li><a href="https://www.instagram.com/"　target="_blank">
-                            <img src="img/icon-instagram.png" alt="インスタグラムのアイコン"></a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+        <header class="container-size header">
+            <h1>Okinawa Tourist</h1>
+            <nav>
+                <ul>
+                    <li><a href="#greeting">初めてご利用の方へ</a></li>
+                    <li><a href="#news">新着ツアー</a></li>
+                    <li><a href="#island">沖縄諸島のご紹介</a></li>
+                    <li><a href="#plan">おすすめプラン</a></li>
+                    <li><a href="#question">よくあるご質問</a></li>
+                </ul>
+            </nav>
         </header>
         <main class="main">
             <div class="main__visual">
-                <img class="main__visual--pc" src ="img/mainvisual-pc.jpg" alt="パソコン用の画像">
-                <img class="main__visual--sp" src ="img/mainvisual-sp.jpg" alt="スマホ用の画像">
+                <img class="main__visual--pc" src="img/main_visual_pc.jpg" alt="パソコンのメインビジュアルの画像">
+                <img class="main__visual--sp" src="img/main_visual_sp.jpg" alt="スマホのメインビジュアルの画像">
             </div>
-            <section class="container-size main__about">
-                <h2 id="About">About</h2>
-                <p>Xxxxx Ashley</p>
-                <p>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan<br>
-                    tel: 000-0000-0000<br>
-                    url: www.xxxxxx.jp<br>
-                    mail: xxx@xxxxxx.jp
-                </p>
-                <p>プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <section id="greeting" class="container-size main__greeting">
+                <h2>初めてご利用の方へ</h2>
+                <p>当社では沖縄県専門としたご旅行のご提案を行っております。<br>
+                    お客様が素敵なお時間を過ごせるよう全力でサポート致します。<br>
+                    何か気になる点がございましたら、遠慮なくお申し付けください。</p>
             </section>
-            <section class="container-size main__works">
-                <h2 id="Works">Works</h2>
-                <div class="main__works--photo">
-                    <img src ="img/works1.jpg" alt="work1の画像">
-                    <img src ="img/works2.jpg" alt="work2の画像">
-                    <img src ="img/works3.jpg" alt="work3の画像">
-                    <img src ="img/works4.jpg" alt="work4の画像">
-                    <img src ="img/works5.jpg" alt="work5の画像">
-                    <img src ="img/works6.jpg" alt="work6の画像">
-                </div>
-            </section>
-            <section class="container-size main__news">
-                <h2 id="News">News</h2>
-                <div class="main__news--list">
+            <section id="news" class="container-full main__news">
+                <div>
+                    <h2>新着ツアー</h2>
                     <ul>
-                        <li><span class="date">2020.XX.XX</span>
-                            <span class="text">デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</span>
+                        <li>
+                            <p class="date">2021.2.01</p>
+                            <p class="label">航空券＋レンタカー付</p>
+                            <p class="link"><a href="">初めての沖縄旅行ならこれで決まり！ レンタカー・美ら海水族館割引券付き！沖縄本島5日間</a></p>
                         </li>
-                        <li><span class="date">2020.XX.XX</span>
-                            <span class="text">ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</span>
+                        <li>
+                            <p class="date">2021.1.31</p>
+                            <p class="label">航空券＋ホテル付</p>
+                            <p class="link"><a href="">離島観光を楽しみたいあなたに！ 竹富島往復フェリー乗船券付き！石垣島３日間</a></p>
                         </li>
-                        <li><span class="date">2019.XX.XX</span>
-                            <span class="text">【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</span>
-                        </li>
-                        <li><span class="date">2019.XX.XX</span>
-                            <span class="text">デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</span>
-                        </li>
-                        <li class="bottom"><span class="date">2019.XX.XX</span>
-                            <span class="text">【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</span>
+                        <li class="bottom">
+                            <p class="date">2021.1.10</p>
+                            <p class="label">航空券＋ホテル付</p>
+                            <p class="link"><a href="">マリンスポーツで夏の思い出作りませんか？ ダイビング体験ツアー付き！宮古島３日間</a></p>
                         </li>
                     </ul>
                 </div>
             </section>
-            <section class="container-size main__contact">
-                <h2 id="Contact">Contact</h2>
-                <div class="main__cotact--form">
-                    <form action="" method="">
-                        <table>
-                            <tr>
-                                <th>NAME</th>
-                                <td><input name="name" type="text"></td>
-                            </tr>
-                            <tr>
-                                <th>E-mail</th>
-                                <td><input name="mail" type="email"></td>
-                            </tr>
-                            <tr>
-                                <th>MESSAGE</th>
-                                <td id="textbox"><textarea name="massage"></textarea></td>
-                            </tr>
-                            <tr>
-                                <td><input id="btn" type="submit" value="送信"></td>
-                            </tr>
-                        </table>
-                    </form>
+            <section id="island" class="container-size main__island">
+                <h2>沖縄諸島のご紹介</h2>
+                <div class="main__island--list">
+                    <div class="main__island--photo">
+                        <img src="img/okinawa.jpg" alt="沖縄本島の画像">
+                        <h3>沖縄本島</h3>
+                        <p>青い海と白砂ビーチが眩しい沖縄諸島。<br>
+                            初めての沖縄ならまずは沖縄本島へ！</p>
+                    </div>
+                    <div class="main__island--photo">
+                        <img src="img/ishigaki.jpg" alt="石垣島の画像">
+                        <h3>石垣島</h3>
+                        <p>沖縄本島よりも温暖な石垣島。<br>
+                            透明度の高い海など沢山の魅力に溢れています！</p>
+                    </div>
+                    <div class="main__island--photo">
+                        <img src="img/miyako.jpg" alt="宮古島の画像">
+                        <h3>宮古島</h3>
+                        <p>沖縄県の中でも屈指の海の美しさを誇る宮古島。<br>
+                            自然を満喫したい方におすすめ！</p>
+                    </div>
                 </div>
+            </section>
+            <section id="plan" class="container-full main__plan">
+                <div>
+                    <h2>おすすめプラン</h2>
+                    <div class="main__plan--tab">
+                        <ul class ="tab-group">
+                            <li class="tab tab-A tab-active">沖縄本島</li>
+                            <li class="tab tab-B">石垣島</li>
+                            <li class="tab tab-C">宮古島</li>
+                        </ul>
+                        <div class="panel-group">
+                            <div class="panel tab-A panel-active">
+                                <div class="panel-layout">
+                                    <img src="img/okinawa-plan.jpg" alt="美ら海水族館の画像">
+                                    <p>初めての沖縄旅行ならこれで決まり！<br>レンタカー・美ら海水族館割引券付き！沖縄本島３日間<br>
+                                    <span class="price">40,000〜80,000円</span></p>
+                                </div> 
+                            </div>
+                            <div class="panel tab-B">
+                                <div class="panel-layout">
+                                    <img src="img/ishigaki-plan.jpg" alt="石垣島の海の画像">
+                                    <p>離島観光を楽しみたいあなたへ！<br>竹富島往復フェリー乗船券付き！石垣島３日間<br>
+                                    <span class="price">40,000〜80,000円</span></p>
+                                </div>
+                            </div>
+                            <div class="panel tab-C">
+                                <div class="panel-layout">
+                                    <img src="img/miyako-plan.jpg" alt="マリンスポーツの画像">
+                                    <p>マリンスポーツで夏の思い出を作りませんか？<br>ダイビング体験コース付き！宮古島３日間<br>
+                                    <span class="price">40,000〜80,000円</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="question" class="container-size main__question">
+                <h2>よくあるご質問</h2>
+
+                <div class="accordion">
+                    
+                    <p class="menu js-menu">予約内容の変更・確認について</p>
+                    <div class="contents">
+                        <p><span>ご予約内容の確認方法</span><br>
+                            予約確定後、ご登録メールアドレスへ送信されるマイページにてご確認が可能です。 マイページのご確認にはご登録時に設定したログインID・パスワードが必要となります。 ログインID・パスワードをお忘れになった場合は、下記お問い合せセンターまでご連絡ください。<br>
+                            お問い合わせ先：000-0000
+                        </p>
+                        <p><span>ご予約内容の変更方法</span><br>
+                            開催の1ヶ月前まで予約変更が可能です。それ以降の変更はご対応しかねますのでご了承ください。 マイページにログイン後、予約内容の変更受付ページにアクセスください。 変更手順のご案内をご確認の上、記載の通りにお手続きをお願い致します。
+                        </p>
+                    </div>
+
+                    <p class="menu js-menu">キャンセル料金について</p>
+                    <div class="contents">
+                        <p><span>開催30日前のツアーのキャンセル</span><br>
+                            ツアー開催の30日前になりますとキャンセル料金が発生致します。
+                        </p>
+                        <ul>
+                            <li>30日前 30%</li>
+                            <li>10日前 50％</li>
+                            <li>当日 100％</li>
+                        </ul>
+                    </div>
+
+                    <p class="menu js-menu">自然災害発生時のツアー中止について</p>
+                    <div class="contents">
+                        <p><span>自然災害発生時の対応</span><br>
+                            地震・台風によりツアー開催が中止となる場合がございます。 その際の返金等の対応は各種ツアー申し込み時の規程にてご案内をしております。
+                        </p>
+                    </div>
+                </div>
+
             </section>
         </main>
         <footer class="footer">
-            <div class="footer__area">
-                <p>&copy; 2020 My Work</p>
-            </div>
+            <p>&copy; Okinawa Tourist</p>
         </footer>
+        <script src ="JS/script.js"></script>
     </body>
 </html>
